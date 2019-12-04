@@ -94,6 +94,7 @@ public class BluetoothLeService extends Service {
             bit = bs[i] & 0x0f;
             sb.append(digital[bit]);
         }
+        test();
         return sb.toString();
     }
     public  byte[] hex2byte(byte[] b) {
@@ -110,7 +111,9 @@ public class BluetoothLeService extends Service {
         return b2;
     }
     
-    
+    public void test(){
+		Log.i(TAG, "=================test: 对比用，");
+	}
     
     
     
