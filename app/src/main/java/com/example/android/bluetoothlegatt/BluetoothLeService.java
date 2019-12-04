@@ -112,7 +112,7 @@ public class BluetoothLeService extends Service {
     }
     
     public void test(){
-		Log.i(TAG, "++++++++++++++++++test: 第二次对比用，");
+		Log.i(TAG, "-------------------------test: 第三次对比用，");
 	}
     
     
